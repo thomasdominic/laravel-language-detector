@@ -24,13 +24,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Vluzrmos\\LanguageDetector\\": "src/"
+      "Thomasdominic\\LanguageDetector\\": "src/"
     },
     "files": ["src/Support/helpers.php"]
   },
   "autoload-dev": {
     "psr-4": {
-      "Vluzrmos\\LanguageDetector\\Testing\\": "tests/"
+      "Thomasdominic\\LanguageDetector\\Testing\\": "tests/"
     }
   },
   "config":{
