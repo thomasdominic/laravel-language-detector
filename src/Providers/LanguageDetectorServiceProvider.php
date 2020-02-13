@@ -1,13 +1,13 @@
 <?php
 
-namespace Vluzrmos\LanguageDetector\Providers;
+namespace Thomasdominic\LanguageDetector\Providers;
 
 use Illuminate\Config\Repository as Config;
 use Illuminate\Http\Request;
 use Illuminate\Support\ServiceProvider;
 use Symfony\Component\Translation\TranslatorInterface as Translator;
-use Vluzrmos\LanguageDetector\Drivers\AbstractDetector;
-use Vluzrmos\LanguageDetector\LanguageDetector;
+use Thomasdominic\LanguageDetector\Drivers\AbstractDetector;
+use Thomasdominic\LanguageDetector\LanguageDetector;
 
 /**
  * Class ServiceProvider.
@@ -37,9 +37,9 @@ class LanguageDetectorServiceProvider extends ServiceProvider
      * @var array
      */
     protected $drivers = [
-        'browser' => 'Vluzrmos\LanguageDetector\Drivers\BrowserDetectorDriver',
-        'subdomain' => 'Vluzrmos\LanguageDetector\Drivers\SubdomainDetectorDriver',
-        'uri' => 'Vluzrmos\LanguageDetector\Drivers\UriDetectorDriver',
+        'browser' => 'Thomasdominic\LanguageDetector\Drivers\BrowserDetectorDriver',
+        'subdomain' => 'Thomasdominic\LanguageDetector\Drivers\SubdomainDetectorDriver',
+        'uri' => 'Thomasdominic\LanguageDetector\Drivers\UriDetectorDriver',
     ];
 
     /**
@@ -158,7 +158,7 @@ class LanguageDetectorServiceProvider extends ServiceProvider
      */
     protected function registerLanguageDetector()
     {
-        $contract = 'Vluzrmos\LanguageDetector\Contracts\LanguageDetectorInterface';
+        $contract = 'Thomasdominic\LanguageDetector\Contracts\LanguageDetectorInterface';
 
         $cookie = $this->config('cookie', true) ? $this->config('cookie_name', 'locale') : null;
 

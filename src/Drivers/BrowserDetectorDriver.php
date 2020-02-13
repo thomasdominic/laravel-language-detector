@@ -1,6 +1,6 @@
 <?php
 
-namespace Vluzrmos\LanguageDetector\Drivers;
+namespace Thomasdominic\LanguageDetector\Drivers;
 
 /**
  * Class BrowserDetectorDriver.

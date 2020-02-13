@@ -1,9 +1,9 @@
 <?php
 
-namespace Vluzrmos\LanguageDetector\Drivers;
+namespace Thomasdominic\LanguageDetector\Drivers;
 
 use Illuminate\Http\Request;
-use Vluzrmos\LanguageDetector\Contracts\DetectorDriverInterface;
+use Thomasdominic\LanguageDetector\Contracts\DetectorDriverInterface;
 
 /**
  * Class AbstractDetectorDriver.

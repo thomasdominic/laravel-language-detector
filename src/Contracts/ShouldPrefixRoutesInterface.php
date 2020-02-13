@@ -1,6 +1,6 @@
 <?php
 
-namespace Vluzrmos\LanguageDetector\Contracts;
+namespace Thomasdominic\LanguageDetector\Contracts;
 
 /**
  * Interface ShouldPrefixRoutes.

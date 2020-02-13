@@ -1,12 +1,12 @@
 {
-  "name": "vluzrmos/language-detector",
+  "name": "thomasdominic/language-detector",
   "description": "Detect the language for your application using browser preferences, subdomains or route prefixes.",
   "keywords": ["Laravel", "Lumen", "Locale", "Language", "i18n"],
   "license": "MIT",
   "authors": [
     {
-      "name": "Vagner do Carmo",
-      "email": "vluzrmos@gmail.com"
+      "name": "Dominic THOMAS",
+      "email": "dominic.thomas76@gmail.com"
     }
   ],
   "type": "package",

@@ -1,13 +1,13 @@
 <?php
 
-namespace Vluzrmos\LanguageDetector;
+namespace Thomasdominic\LanguageDetector;
 
 use Closure;
 use Illuminate\Contracts\Translation\Translator as IlluminateTranslator;
 use Symfony\Component\Translation\TranslatorInterface as SymfonyTranslator;
-use Vluzrmos\LanguageDetector\Contracts\DetectorDriverInterface as Driver;
-use Vluzrmos\LanguageDetector\Contracts\LanguageDetectorInterface;
-use Vluzrmos\LanguageDetector\Contracts\ShouldPrefixRoutesInterface as ShouldPrefixRoute;
+use Thomasdominic\LanguageDetector\Contracts\DetectorDriverInterface as Driver;
+use Thomasdominic\LanguageDetector\Contracts\LanguageDetectorInterface;
+use Thomasdominic\LanguageDetector\Contracts\ShouldPrefixRoutesInterface as ShouldPrefixRoute;
 
 /**
  * Class LanguageDetector.

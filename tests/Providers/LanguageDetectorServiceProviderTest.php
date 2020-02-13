@@ -1,6 +1,6 @@
 <?php
 
-namespace Vluzrmos\LanguageDetector\Testing\Providers;
+namespace Thomasdominic\LanguageDetector\Testing\Providers;
 
 use Illuminate\Foundation\Application;
 use Orchestra\Testbench\TestCase;
@@ -19,19 +19,19 @@ class LanguageDetectorServiceProviderTest extends TestCase
 
         foreach ($drivers as $shortcut) {
             $this->assertInstanceOf(
-                'Vluzrmos\LanguageDetector\Contracts\DetectorDriverInterface',
+                'Thomasdominic\LanguageDetector\Contracts\DetectorDriverInterface',
                 $this->app['language.driver.'.$shortcut]
             );
         }
 
         $this->assertInstanceOf(
-            'Vluzrmos\LanguageDetector\Contracts\LanguageDetectorInterface',
+            'Thomasdominic\LanguageDetector\Contracts\LanguageDetectorInterface',
             $this->app['language.detector']
         );
 
         $this->assertInstanceOf(
-            'Vluzrmos\LanguageDetector\Contracts\LanguageDetectorInterface',
-            $this->app['Vluzrmos\LanguageDetector\Contracts\LanguageDetectorInterface']
+            'Thomasdominic\LanguageDetector\Contracts\LanguageDetectorInterface',
+            $this->app['Thomasdominic\LanguageDetector\Contracts\LanguageDetectorInterface']
         );
 
         $this->app['translator']->setLocale('fr');
@@ -49,7 +49,7 @@ class LanguageDetectorServiceProviderTest extends TestCase
     {
         $app['config']->set(
             'language.provider',
-            'Vluzrmos\LanguageDetector\Providers\LanguageDetectorServiceProvider'
+            'Thomasdominic\LanguageDetector\Providers\LanguageDetectorServiceProvider'
         );
 
         return [$app['config']->get('language.provider')];

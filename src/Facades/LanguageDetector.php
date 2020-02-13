@@ -1,6 +1,6 @@
 <?php
 
-namespace Vluzrmos\LanguageDetector\Facades;
+namespace Thomasdominic\LanguageDetector\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

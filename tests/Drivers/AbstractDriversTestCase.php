@@ -1,11 +1,11 @@
 <?php
 
-namespace Vluzrmos\LanguageDetector\Testing\Drivers;
+namespace Thomasdominic\LanguageDetector\Testing\Drivers;
 
 use Illuminate\Http\Request;
 use Orchestra\Testbench\TestCase;
 use Symfony\Component\Translation\TranslatorInterface;
-use Vluzrmos\LanguageDetector\LanguageDetector;
+use Thomasdominic\LanguageDetector\LanguageDetector;
 
 /**
  * Class AbstractDriversTestCase.

@@ -1,8 +1,8 @@
 <?php
 
-namespace Vluzrmos\LanguageDetector\Testing\Drivers;
+namespace Thomasdominic\LanguageDetector\Testing\Drivers;
 
-use Vluzrmos\LanguageDetector\Drivers\SubdomainDetectorDriver;
+use Thomasdominic\LanguageDetector\Drivers\SubdomainDetectorDriver;
 
 /**
  * Class SubdomainDetectorDriverTest.

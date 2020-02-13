@@ -1,8 +1,8 @@
 <?php
 
-namespace Vluzrmos\LanguageDetector\Drivers;
+namespace Thomasdominic\LanguageDetector\Drivers;
 
-use Vluzrmos\LanguageDetector\Contracts\ShouldPrefixRoutesInterface as PrefixRoutes;
+use Thomasdominic\LanguageDetector\Contracts\ShouldPrefixRoutesInterface as PrefixRoutes;
 
 /**
  * Class UriDetectorDriver.
